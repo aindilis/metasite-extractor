@@ -1,0 +1,1 @@
+/var/lib/myfrdcsa/codebases/minor/software-finder/scripts/get-latest-version-only.pl

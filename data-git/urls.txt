@@ -1,0 +1,14 @@
+https://github.com/johnyf/tool_lists/
+https://rubenizquierdobevia.com/software/
+https://uima.apache.org/external-resources.html
+https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/
+https://www.openhub.net/
+http://theory.stanford.edu/~aiken/personal/software.html
+http://wp.doc.ic.ac.uk/robotvision/software_dataset/
+http://www1.cs.columbia.edu/nlp/tools.html
+http://www.cs.utexas.edu/users/mfkb/related.html
+http://www.dbai.tuwien.ac.at/research/project/dflat/
+http://www.iam.ecs.soton.ac.uk/projects/
+http://www.open-do.org/
+http://www.ruleml.org/
+http://www.searchtools.com/tools/tools-opensource.html

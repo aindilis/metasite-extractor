@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>  Anomaly Detection, Deviation and Fraud Detection Software</title>
+  <link rel="shortcut icon" href="/wp-content/themes/kdn17/images/favicon.ico" />
+  <link type="text/css" rel="stylesheet" href="/wp-content/themes/kdn17/style.css" media="screen" />
+  <script type="text/javascript" src="/wp-content/themes/kdn17/js/jquery-1.9.1.min.js" ></script>
+  <script type="text/javascript" src="/aps/all17.js"></script> 
+  <link rel="alternate" type="application/rss+xml" title="KDnuggets: Analytics, Big Data, Data Mining and Data Science Feed" href="/feed/" />
+ <link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="KDnuggets &raquo; Feed" href="https://www.kdnuggets.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="KDnuggets &raquo; Comments Feed" href="https://www.kdnuggets.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="KDnuggets &raquo; Anomaly Detection, Deviation and Fraud Detection Software Comments Feed" href="https://www.kdnuggets.com/software/deviation.html/feed" />
+<link rel='https://api.w.org/' href='https://www.kdnuggets.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.kdnuggets.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.kdnuggets.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="https://www.kdnuggets.com/software/deviation.html" />
+<link rel='shortlink' href='https://www.kdnuggets.com/?p=12727' />
+	<link rel="canonical" href="https://www.kdnuggets.com/software/deviation.html"/>
+
+
+<!-- BEGIN GADWP v4.9.5 Classic Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-361129-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- END GADWP Classic Tracking -->
+
+</head>
+ 
+<body class="page-template-default page page-id-12727 page-child parent-pageid-59">
+  <div class="main_wrapper"><!-- publ: 23-Dec, 2013  -->
+    <div id="wrapper">
+      <div id="header">
+        <div id="header_log">
+          <div class="logo">
+            <a href="/"></a>
+           </div>
+           <h1>KDnuggets</h1>
+           <div class="text-container">
+            &nbsp;&nbsp;<a href="/news/subscribe.html" target="_blank"><b>Subscribe to KDnuggets News</b></a> &nbsp;|
+ <a href="https://twitter.com/kdnuggets" target=_blank><img src="/images/tw_c48.png" width=48 height=48 style="vertical-align: bottom" alt="Twitter"></a> &nbsp;&nbsp;
+ <a href="https://facebook.com/kdnuggets" target="_blank"><img src="/images/fb_c48.png" width=48 height=48 style="vertical-align: bottom" alt="Facebook"></a> &nbsp;&nbsp;
+<a href="https://www.linkedin.com/groups/54257" target="_blank"><img src="/images/in_c48.png" width=48 height=48 style="vertical-align: bottom" alt="LinkedIn"></a> 
+&nbsp;|&nbsp; <a href="/gps.html"><b>Contact</b></a>
+            </div>
+          </div>
+        <div class="search">
+          <form method="get" id="searchform" action="/">
+	  <input value="" name="s" id="s" placeholder="search KDnuggets" type="text">
+	  <input value="Search" type="submit"></form>
+        </div>
+<div href="#" id="pull">
+  <img class="menu" src="/images/menu-30.png"/>
+  <div class="logo">
+      <a href="/"></a>
+  </div>
+  <img class="search-icon" src="/images/search-icon.png"/>
+</div>
+<div id="pull-menu">
+  
+        <div class="navigation"><ul id="menu-menu" class="menu"><li id="menu-item-1070" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1070"><a title="Data Science Software" href="/software/index.html">SOFTWARE</a></li>
+<li id="menu-item-13756" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13756"><a title="News" href="/news/index.html">News/Blog</a></li>
+<li id="menu-item-46286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46286"><a href="/news/top-stories.html">Top stories</a></li>
+<li id="menu-item-42152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42152"><a title="Opinions" href="https://www.kdnuggets.com/opinions/index.html">Opinions</a></li>
+<li id="menu-item-46415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46415"><a href="https://www.kdnuggets.com/tutorials/index.html">Tutorials</a></li>
+<li id="menu-item-13364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13364"><a title="Jobs in Analytics, Data Science" href="/jobs/index.html">JOBS</a></li>
+<li id="menu-item-63505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63505"><a href="https://www.kdnuggets.com/companies/index.html">Companies</a></li>
+<li id="menu-item-13366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13366"><a href="/courses/index.html">Courses</a></li>
+<li id="menu-item-1499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1499"><a href="https://www.kdnuggets.com/datasets/index.html">Datasets</a></li>
+<li id="menu-item-14286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14286"><a title="Education in Analytics, Big Data, Data Science" href="https://www.kdnuggets.com/education/index.html">EDUCATION</a></li>
+<li id="menu-item-51558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51558"><a title="Certificates in Analytics, Big Data, Data Science" href="https://www.kdnuggets.com/education/analytics-data-mining-certificates.html">Certificates</a></li>
+<li id="menu-item-14752" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14752"><a href="/meetings/index.html">Meetings</a></li>
+<li id="menu-item-13721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13721"><a title="Webcasts and Webinars" href="/webcasts/index.html">Webinars</a></li>
+</ul></div></div>
+      </div> <!--#header end-->
+      <div id="spacer">
+         &nbsp;
+      </div>
+      <div id="content_wrapper">
+        <div id="ad_wrapper">
+          <script type="text/javascript">
+	jQuery(function() {
+   	    var pull        = $('#pull');
+            menu        = $('#header .navigation ul');
+            menuImage = $('#header img.menu');
+            mobileMenu        = $('#pull-menu-mobile');
+            search = $('img.search-icon');
+            searchBar = $('div.search');
+            searchClick = false;
+            search.on('click', function() {
+                  searchBar.slideToggle();
+                  searchClick = true;
+            });  
+     	    $(menuImage).on('click', function(e) {
+	        //e.preventDefault();
+                if (!searchClick) {
+                  menu.slideToggle();
+                }
+                searchClick = false;
+	    });
+           /* pullMobile.on('click', function(e) {
+              e.preventDefault();
+                if (!searchClick) {
+                  mobileMenu.slideToggle();
+                }
+                searchClick = false;
+	    });*/
+            
+	});
+	kpath = '/'; aw9(); e17_init(); kse_ads=3;
+	</script>
+        </div>    <div class="breadcumb">
+       <br />
+<a href="/">KDnuggets Home</a> &raquo; <a href="/software/index.html">Software</a> &raquo; Deviation and Fraud Detection    </div>
+<div id="content" class="single">
+
+  <h1 id="title">Anomaly Detection, Deviation and Fraud Detection Software</h1>
+  <div class="page_content">
+    <br>
+    <div class="addthis_native_toolbox"></div>
+
+
+    <div id="post-12727" class="post-12727 page type-page status-publish hentry" class="post">
+    <hr align=center size=1 width=500 color="#999999">
+</p>
+<ul class="three_ul">
+<li><!-- added=2016-11-3 --><a href="http://www.anodot.com/">Anodot</a> provides real-time analytics and automated anomaly-detection systems to find outliers in Big Data and transform them into valuable business insights.
+<li><a href="http://www.bissantz.de/">Delta Miner</a>, integrates new search techniques and "business intelligence" methodologies into an OLAP front-end; finds most important exceptions
+<li><a href="http://www.rulequest.com/gritbot-info.html">GritBot</a>, for identifying anomalies in data (compatible with See5 and Cubist).
+<li> <a HREF="http://www.dialogis.de/">Kepler</a>, a data mining suite, which includes methods for deviation detection (website in German and English)
+<li><!-- added=2016-11-15 --><a href="http://www.machine-analytics.com">Machine Analytics</a>, anomaly detection and analytics for machine data and log files.
+<li><!-- added=2017-10-24 --><a href="https://gotrakker.com">Trakker</a> is a customizable data-driven software to identify process weaknesses through data analytics. Data is aggregated to allow you to manage by exception.
+<li> <a HREF="http://www.wizsoft.com/">Wizrule</a>, reports the rules, and the cases deviating from the norm.
+</ul>
+<p></p>
+<h3 class="rel_h3">Related</h3>
+<ul>
+<li> <a href="/solutions/fraud-detection.html">Fraud Detection Solutions</a>
+</ul>
+      </div>
+</div>
+    <!--#content end--></div>
+
+<div id="sidebar">
+  <div class="latn">
+      <h3><b><a href="/news/index.html">Latest News</a></b></h3>
+      <ul style="font-size:14px; margin-top:5px">
+<li> <a href="https://www.kdnuggets.com/2018/09/figure-eight-active-learning-work-your-enterprise.html">How to Put Active Learning to Work for Your Enterprise</a><li> <a href="https://www.kdnuggets.com/2018/09/looker-bigquery-data-science-workflow-webinar-2.html">Webinar: How Google BigQuery and Looker Can Accelerate ...</a><li> <a href="https://www.kdnuggets.com/2018/09/paw-microsoft-google-bilfinger-deep-learning-world-berlin.html">Join Microsoft, Google and Bilfinger at Deep Learning W...</a><li> <a href="https://www.kdnuggets.com/2018/09/top-news-week-0910-0916.html">Top Stories, Sep 10-16: Essential Math for Data Science...</a><li> <a href="https://www.kdnuggets.com/2018/09/10-big-data-trends.html">10 Big Data Trends You Should Know</a><li> <a href="https://www.kdnuggets.com/2018/09/practical-cognitive-biases.html">You Aren&#8217;t So Smart: Cognitive Biases are Making ...</a></ul>
+
+              
+  </div>
+  <div>
+    <script type="text/javascript">e17_write(kse_ads);</script>
+  </div>
+  <br><script type="text/javascript" src="/aps/sbm.js"></script>       
+  </div>       
+</div><div class="breadcrumbs_bottom">
+    <div class="breadcumb">
+       <br />
+<a href="/">KDnuggets Home</a> &raquo; <a href="/software/index.html">Software</a> &raquo; Deviation and Fraud Detection    </div>
+</div>
+<!--#content_wrapper end--></div>
+<br/>
+  <div id="footer">
+  <br>&copy; 2018 KDnuggets. <a href="/about/index.html">About KDnuggets</a>. &nbsp;<a href="/news/privacy-policy.html">Privacy policy</a>. <a href="/terms-of-service.html">Terms of Service</a><br>&nbsp;
+<div class="kd_bottom">
+  <div class="footer-container">
+    <div class="footer-news">
+		<a href="/news/subscribe.html" target="_blank" onclick="_gaq.push(['_trackPageview','/x/bot/sub']);" ><b>Subscribe to KDnuggets News</b></a> 
+    </div>
+    <div class="footer-sm">
+      <a href="https://twitter.com/kdnuggets" target="_blank" onclick="_gaq.push(['_trackPageview','/x/bot/twt']);"><img src="/images/tw_c48.png" width=32 height=32></a> 
+      <a href="https://facebook.com/kdnuggets" target="_blank" onclick="_gaq.push(['_trackPageview','/x/bot/fb']);"><img src="/images/fb_c48.png" alt="Facebook" width=32 height=32></a>
+      <a href="https://www.linkedin.com/groups/54257" target="_blank"  onclick="_gaq.push(['_trackPageview','/x/bot/in']);"><img src="/images/in_c48.png" alt="LinkedIn" width=32 height=32></a>
+    </div>
+  </div>
+  <div class="close-footer">X</div>
+</div>
+<script type="text/javascript">
+  jQuery('.close-footer').click(
+      function(){       
+         jQuery('.kd_bottom').hide();
+      }
+   );
+</script>  </div>
+  <div class="clear"><!--blank--></div>
+</div>
+<div style="display: none;"><div id="boxzilla-box-82996-content"><script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.1.14 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-77281" method="post" data-id="77281" data-name="Subscribe to KDnuggets News" ><div class="mc4wp-form-fields"><div class="header-container">
+  <img src="/wp-content/uploads/envelope.png" align="left"/><a href="/news/subscribe.html">Get KDnuggets, a leading newsletter on AI, 
+  Data Science, and Machine Learning</a> 
+</div>  
+<div class="form-fields">
+  <div class="field-container"><label>Email:</label><input type="email" name="EMAIL" size="30" maxlength="60" placeholder="Your email" required /></div>
+  <div class="field-container submit-container"><div class="form-button" onclick="document.getElementById('mc4wp-form-1').submit()">Sign Up</div></div>
+</div>  
+
+<label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1537256988" /><input type="hidden" name="_mc4wp_form_id" value="77281" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->
+</div></div><script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><script type='text/javascript'>
+/* <![CDATA[ */
+var boxzilla_options = {"testMode":"","boxes":[{"id":82996,"icon":"&times;","content":"","css":{"background_color":"#eeee22","width":600,"border_width":2,"border_style":"double","position":"bottom-right"},"trigger":{"method":"time_on_page","value":"3"},"animation":"slide","cookie":{"triggered":0,"dismissed":336},"rehide":true,"position":"bottom-right","screenWidthCondition":{"condition":"larger","value":500},"closable":true,"post":{"id":82996,"title":"Subscribe to KDnuggets","slug":"subscribe-to-kdnuggets"}}]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kdnuggets.com/wp-content/plugins/boxzilla/assets/js/script.min.js?ver=3.2.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var boxzilla_stats_config = {"ajaxurl":"https:\/\/www.kdnuggets.com\/wp-admin\/admin-ajax.php?action=boxzilla_stats_track"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kdnuggets.com/wp-content/plugins/boxzilla-stats/assets/js/tracking.min.js?ver=1.0.4'></script>
+<script type='text/javascript' src='https://www.kdnuggets.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kdnuggets.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.1.14'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='https://www.kdnuggets.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.1.14'></script>
+<![endif]-->
+<!--/.main_wrapper--></div>
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=gpsaddthis"></script>
+</body>
+</html>
+<!-- Dynamic page generated in 0.440 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-09-18 03:49:48 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

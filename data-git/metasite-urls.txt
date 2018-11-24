@@ -1,0 +1,35 @@
+# http://devel.iam.ecs.soton.ac.uk/projects/
+# http://infomine.ucr.edu/iVia/download.shtml
+# http://linguist-mirror.ling.su.se/sp/Software.html
+# http://ml-site.grantingersoll.com/index.php?title=Existing_Learning_Tools
+# http://ontoware.org/
+# http://ontoware.org/software/
+# http://semwebcentral.org/
+https://github.com/johnyf/tool_lists/
+https://rubenizquierdobevia.com/software/
+https://samate.nist.gov/SARD/testsuite.php#standalone
+# http://stommel.tamu.edu/~baum/linux-meta.html
+https://uima.apache.org/external-resources.html
+https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/
+https://www.openhub.net/
+# http://tangra.si.umich.edu/clair/universe-rk/html/u/db/acl/html/RESOURCES/SOFTWARE/TOOLS/
+http://theory.stanford.edu/~aiken/personal/software.html
+# http://vitalstatistix.nicve.salford.ac.uk/cgi-bin/planet2/search.cgi?case=military
+http://wp.doc.ic.ac.uk/robotvision/software_dataset/
+http://www1.cs.columbia.edu/nlp/tools.html
+# http://www.cordis.lu/ist/projects/projects.htm
+# http://www.cs.jhu.edu/~mdredze/code.php
+# http://www.cs.umd.edu/projects/
+# http://www.cs.uta.fi/kurssit/AgO/agentlinks2002spring.html
+http://www.cs.utexas.edu/users/mfkb/related.html
+http://www.dbai.tuwien.ac.at/research/project/dflat/
+# http://www.fcahome.org.uk/
+http://www.iam.ecs.soton.ac.uk/projects/
+# http://www.mindswap.org/downloads/
+# http://www.mlnet.org/cgi-bin/mlnetois.pl/?File=software.html
+http://www.open-do.org/
+# http://www.qrg.northwestern.edu/software/software.htm
+http://www.ruleml.org/
+http://www.searchtools.com/tools/tools-opensource.html
+# http://www.umiacs.umd.edu/research/CLIP/projects.htm
+# http://www.x-media-project.org/Software.html
